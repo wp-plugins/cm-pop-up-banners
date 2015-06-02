@@ -1,0 +1,3 @@
+nothing_found	No item has been found.	Message being displayed when search ends up with no results.	General
+search_label	Search:	Search input label	General
+search_placeholder	Please enter keywords	Search input placeholder.	General
