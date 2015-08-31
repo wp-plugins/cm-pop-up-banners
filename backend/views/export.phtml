@@ -1,0 +1,16 @@
+
+<form method="post">
+
+    <table class="">
+        <?php
+        wp_nonce_field(self::$exportNonceAction, self::$exportNonceField);
+        ?>
+        <tr>
+            <td colspan=2>
+                <div>
+                    <input class="button button-primary" type="submit" value="Export" name="<?php echo self::$exportNonceAction; ?>" id="submit_button">
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
