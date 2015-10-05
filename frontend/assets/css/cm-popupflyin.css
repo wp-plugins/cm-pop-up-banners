@@ -1,8 +1,0 @@
-body {overflow-x: hidden;}
-#cmpopfly-widget-container-wrapper{z-index: 99999999;}
-#cmpopfly-widget-container {z-index: 99999999 !important;
-
-                        &.show {
-                            display: block!important;
-                        }
-}
